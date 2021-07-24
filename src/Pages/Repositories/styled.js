@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
     width: 100%;
-    max width: 991px;
+    max-width: 991px;
     margin: 0 auto;
 `;
 
@@ -15,7 +15,7 @@ export const Title = styled.h1`
 `;
 
 export const List = styled.ul`
-    list-style: none:
+    list-style: none;
     padding:0;
     margin: 0;
     font-family: sans-serif;    
@@ -33,8 +33,8 @@ export const LinkHome = styled(Link)`
     width: 4rem;
     text-align: center;
     margin: 2rem auto;
-    color: #green;
-    backgroud-color: #gray;
+    color: green;
+    background-color: #fdca1f;
     padding: .5rem 0;
     text-decoration: none;
 `;
